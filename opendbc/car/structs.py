@@ -18,7 +18,3 @@ CarStateT = capnp.lib.capnp._StructModule
 RadarDataT = capnp.lib.capnp._StructModule
 CarControlT = capnp.lib.capnp._StructModule
 CarParamsT = capnp.lib.capnp._StructModule
-
-class OPFlags:
-  ToyotaTSS1SnG = 2 ** 2
-  pass
