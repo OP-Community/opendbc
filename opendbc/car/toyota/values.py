@@ -55,7 +55,6 @@ class ToyotaSafetyFlags(IntFlag):
   STOCK_LONGITUDINAL = (2 << 8)
   LTA = (4 << 8)
   SECOC = (8 << 8)
-  ALKA = 2 ** 12
 
 
 class ToyotaFlags(IntFlag):
@@ -76,6 +75,7 @@ class ToyotaFlags(IntFlag):
   # these cars can utilize 2.0 m/s^2
   RAISED_ACCEL_LIMIT = 1024
   SECOC = 2048
+  ALKA = 2 ** 12
 
 class Footnote(Enum):
   CAMRY = CarFootnote(
